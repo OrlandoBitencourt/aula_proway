@@ -1,6 +1,6 @@
 # aula_proway
 
-#CONVENCOES DO PYTHON PARA NOMENCLATURAS:
+###### CONVENCOES DO PYTHON PARA NOMENCLATURAS:
 
 classes 
 	
@@ -19,7 +19,7 @@ funções
 	deve ser usado _, ex: minha_funcao():
 
 
-#ORIENTACAO A OBJETOS:
+###### ORIENTACAO A OBJETOS:
 
 1 - abstração
 
@@ -50,7 +50,7 @@ funções
 	mudar algo que a classe filha recebeu da classe principal (mae).
 
 
-#EXEMPLO DE ORIENTACAO A OBJETOS:
+###### EXEMPLO DE ORIENTACAO A OBJETOS:
 
 ````
 #SUPERCLASSE
