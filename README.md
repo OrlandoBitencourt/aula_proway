@@ -53,15 +53,19 @@ funções
 ###### EXEMPLO DE ORIENTACAO A OBJETOS:
 
 ````
-#SUPERCLASSE
+# SUPERCLASSE
 class Animais: 
 	rabo = True
 	patas = 0
 	ordem = ""
 
 
+# a classe gato herda as metodos/atributos da super classe animais
 class Gato(Animais):
-
+	
+	# seguinto a abstração, 
+	# como o gato possui rabo = True, 
+	# não precisa ser informado novamente
 	patas = 4
 	ordem = "Mamalia"
 
