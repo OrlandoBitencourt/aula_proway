@@ -55,6 +55,7 @@ funções
 ````
 # SUPERCLASSE
 class Animais: 
+
 	rabo = True
 	patas = 0
 	ordem = ""
