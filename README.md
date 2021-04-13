@@ -1,17 +1,25 @@
 # aula_proway
 
-CONVENCOES DO PYTHON PARA NOMENCLATURAS:
+#CONVENCOES DO PYTHON PARA NOMENCLATURAS:
 
-classes = deve ser usado CamelCase ex: MinhaClasse
+classes 
+	
+	deve ser usado CamelCase ex: MinhaClasse
 
-variaveis = deve ser usado _, ex: minha_variavel
+variaveis 
+	
+	deve ser usado _, ex: minha_variavel
 
-constantes = deve ser escrita totalmente em letra maiuscula, ex: CONSTANTE
+constantes 
 
-funções = deve ser usado _, ex: minha_funcao():
+	deve ser escrita totalmente em letra maiuscula, ex: CONSTANTE
+
+funções 
+	
+	deve ser usado _, ex: minha_funcao():
 
 
-ORIENTACAO A OBJETOS:
+#ORIENTACAO A OBJETOS:
 
 1 - abstração
 
@@ -42,8 +50,9 @@ ORIENTACAO A OBJETOS:
 	mudar algo que a classe filha recebeu da classe principal (mae).
 
 
-EXEMPLO DE ORIENTACAO A OBJETOS:
+#EXEMPLO DE ORIENTACAO A OBJETOS:
 
+````
 #SUPERCLASSE
 class Animais: 
 	rabo = True
@@ -59,5 +68,6 @@ class Gato(Animais):
 
 animal = Gato()
 print(animal.patas)
+````
 
 
